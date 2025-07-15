@@ -1,0 +1,32 @@
+karma-roundup-engine/
+│
+├── README.md
+├── LICENSE
+├── .env.example
+│
+├── /web
+│   ├── next.config.js
+│   ├── package.json
+│   ├── /pages
+│   ├── /components
+│   ├── /public
+│   ├── /styles
+│
+├── /mobile (optional)
+│   ├── App.js
+│   ├── package.json
+│
+├── /functions
+│   ├── index.js  (Firebase Cloud Functions)
+│
+├── /firebase
+│   ├── firebaseConfig.js
+│   ├── firestore.rules
+│
+├── /docs
+│   ├── PRIVACY.md
+│   ├── TERMS.md
+│   ├── wireframes.pdf (or PNGs)
+│
+└── /scripts
+    ├── deploy.sh
