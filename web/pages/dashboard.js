@@ -4,6 +4,12 @@ import { useEffect, useState } from 'react';
 import { auth } from '../firebase/firebaseConfig';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { doc, getDoc, getFirestore, collection, getDocs } from 'firebase/firestore';
+import PlaidLinkButton from '../components/PlaidLinkButton';
+
+// ...
+
+<PlaidLinkButton />
+
 
 export default function Dashboard() {
   const db = getFirestore();
